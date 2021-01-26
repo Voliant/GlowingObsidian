@@ -11,5 +11,5 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModicumContainers {
     public static final DeferredRegister<ContainerType<?>> CONTAINERS = DeferredRegister.create(ForgeRegistries.CONTAINERS, Modicum.MOD_ID);
     //TODO work out how to register this!!
-    //public static final RegistryObject<ContainerType<AssemblerContainer>> ASSEMBLER = CONTAINERS.register("assembler", () -> IForgeContainerType.create(AssemblerContainer::new));
+    public static final RegistryObject<ContainerType<AssemblerContainer>> ASSEMBLER = CONTAINERS.register("assembler", () -> IForgeContainerType.create(AssemblerContainer::new));
 }
